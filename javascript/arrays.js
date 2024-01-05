@@ -20,8 +20,8 @@ myArr.pop()
 
 // console.log(typeof newArr)
 
-console.log(myArr.slice(2,4)) // does not change actual array 
+console.log(myArr.slice(2,4)) // does not change actual array // does not include ending range
 
-myArr.splice(0,3) // changes actual array 
+myArr.splice(0,3) // changes actual array -- includes ending range
 
 console.log(myArr);
